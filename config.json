@@ -1,0 +1,90 @@
+{
+  "project": {
+    "name": "结构工程图纸 3D 拓扑重建",
+    "version": "5.0.0",
+    "description": "单张图纸独立处理流程：OCR识别 → 图纸类型识别 → 信息提取 → JSON输出"
+  },
+  "ocr": {
+    "server_url": "http://localhost:5000",
+    "confidence_threshold": 0.80,
+    "enabled": true,
+    "engine": "PaddleOCR",
+    "language": "ch",
+    "timeout": 1200
+  },
+  "llm": {
+    "provider": "openrouter",
+    "api_url": "https://openrouter.ai/api/v1/chat/completions",
+    "model": "google/gemini-3.1-pro-preview",
+    "max_tokens": 32768,
+    "temperature": 0.1,
+    "reasoning_enabled": true,
+    "note": "默认使用 Gemini 3.1 Pro Preview 推理模式"
+  },
+  "cross_validation": {
+    "enabled": true,
+    "models": ["google/gemini-3.1-pro-preview", "anthropic/claude-opus-4.6"],
+    "max_validation_rounds": 3,
+    "note": "启用双模型交叉验证，提高识别准确率"
+  },
+  "context_management": {
+    "enabled": true,
+    "context_dir": "./context",
+    "auto_save": true,
+    "note": "启用上下文管理，支持多轮对话"
+  },
+  "processing": {
+    "pdf_dpi": 600,
+    "image_format": "png",
+    "supported_file_formats": [
+      "pdf",
+      "png",
+      "jpg",
+      "jpeg",
+      "bmp",
+      "tiff",
+      "tif",
+      "gif",
+      "webp"
+    ],
+    "tolerance_mm": 10.0,
+    "coordinate_system": {
+      "origin": ["1", "A"],
+      "x_axis_direction": "数字轴方向（1→2→3...）",
+      "y_axis_direction": "字母轴方向（A→B→C...）",
+      "z_axis_direction": "垂直向上",
+      "unit": "毫米"
+    }
+  },
+  "output": {
+    "json_format": "structured",
+    "include_metadata": true,
+    "include_ocr_statistics": true,
+    "pretty_print": true
+  },
+  "image_preprocessing": {
+    "enabled": true,
+    "for_ocr_only": true,
+    "methods": {
+      "grayscale": true,
+      "adaptive_threshold": false,
+      "denoise": true,
+      "enhance_contrast": true,
+      "sharpen": false
+    },
+    "save_processed": true,
+    "save_intermediate_steps": false,
+    "output_dir": "./preprocessed",
+    "note": "预处理仅用于OCR优化，LLM使用原始高质量图像（600 DPI）。去噪和对比度增强参数已针对工程图纸优化。"
+  },
+  "supported_components": [
+    "Column",
+    "Beam",
+    "Wall",
+    "Shell"
+  ],
+  "drawing_types": [
+    "elevation",
+    "plan"
+  ]
+}

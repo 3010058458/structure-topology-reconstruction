@@ -1,0 +1,446 @@
+{
+  "drawing_type": "plan",
+  "floor_id": "2F",
+  "data": {
+    "floor_id": "2F",
+    "components_above": {
+      "columns": [
+        {
+          "x": 0,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "A-1",
+          "section": null
+        },
+        {
+          "x": 11300,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "A-2",
+          "section": null
+        },
+        {
+          "x": 19700,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "A-3",
+          "section": "400x600"
+        },
+        {
+          "x": 0,
+          "y": 9650,
+          "label": "KZ",
+          "grid_location": "B-1",
+          "section": null
+        },
+        {
+          "x": 11300,
+          "y": 9650,
+          "label": "KZ",
+          "grid_location": "B-2",
+          "section": null
+        },
+        {
+          "x": 19700,
+          "y": 9650,
+          "label": "KZ",
+          "grid_location": "B-3",
+          "section": "400x600"
+        },
+        {
+          "x": 0,
+          "y": 18050,
+          "label": "KZ",
+          "grid_location": "C-1",
+          "section": null
+        },
+        {
+          "x": 11300,
+          "y": 18050,
+          "label": "KZ",
+          "grid_location": "C-2",
+          "section": null
+        },
+        {
+          "x": 19700,
+          "y": 18050,
+          "label": "KZ",
+          "grid_location": "C-3",
+          "section": "400x600"
+        },
+        {
+          "x": 0,
+          "y": 27700,
+          "label": "KZ",
+          "grid_location": "D-1",
+          "section": null
+        },
+        {
+          "x": 11300,
+          "y": 27700,
+          "label": "KZ",
+          "grid_location": "D-2",
+          "section": null
+        },
+        {
+          "x": 19700,
+          "y": 27700,
+          "label": "KZ",
+          "grid_location": "D-3",
+          "section": "400x600"
+        }
+      ],
+      "beams": [
+        {
+          "start_grid": "A-1",
+          "end_grid": "A-2",
+          "label": "KL6(2A)",
+          "section": "500x1000",
+          "start": [
+            0,
+            0
+          ],
+          "end": [
+            11300,
+            0
+          ]
+        },
+        {
+          "start_grid": "A-2",
+          "end_grid": "A-3",
+          "label": "L8(2A)",
+          "section": "200x600",
+          "start": [
+            11300,
+            0
+          ],
+          "end": [
+            19700,
+            0
+          ]
+        },
+        {
+          "start_grid": "B-1",
+          "end_grid": "B-2",
+          "label": "KL13(2A)",
+          "section": "400x1000",
+          "start": [
+            0,
+            9650
+          ],
+          "end": [
+            11300,
+            9650
+          ]
+        },
+        {
+          "start_grid": "B-2",
+          "end_grid": "B-3",
+          "label": "KL13(2A)",
+          "section": "400x1000",
+          "start": [
+            11300,
+            9650
+          ],
+          "end": [
+            19700,
+            9650
+          ]
+        },
+        {
+          "start_grid": "C-1",
+          "end_grid": "C-2",
+          "label": "KL8(2A)",
+          "section": "400x1000",
+          "start": [
+            0,
+            18050
+          ],
+          "end": [
+            11300,
+            18050
+          ]
+        },
+        {
+          "start_grid": "C-2",
+          "end_grid": "C-3",
+          "label": "KL8(2A)",
+          "section": "400x1000",
+          "start": [
+            11300,
+            18050
+          ],
+          "end": [
+            19700,
+            18050
+          ]
+        },
+        {
+          "start_grid": "D-1",
+          "end_grid": "D-2",
+          "label": "L17(2A)",
+          "section": "200x600",
+          "start": [
+            0,
+            27700
+          ],
+          "end": [
+            11300,
+            27700
+          ]
+        },
+        {
+          "start_grid": "D-2",
+          "end_grid": "D-3",
+          "label": "KL10(2A)",
+          "section": "400x1000",
+          "start": [
+            11300,
+            27700
+          ],
+          "end": [
+            19700,
+            27700
+          ]
+        },
+        {
+          "start_grid": "A-1",
+          "end_grid": "B-1",
+          "label": "KL1(3)",
+          "section": "350x700",
+          "start": [
+            0,
+            0
+          ],
+          "end": [
+            0,
+            9650
+          ]
+        },
+        {
+          "start_grid": "B-1",
+          "end_grid": "C-1",
+          "label": "KL1(3)",
+          "section": "350x700",
+          "start": [
+            0,
+            9650
+          ],
+          "end": [
+            0,
+            18050
+          ]
+        },
+        {
+          "start_grid": "C-1",
+          "end_grid": "D-1",
+          "label": "KL13(2)",
+          "section": "200x400",
+          "start": [
+            0,
+            18050
+          ],
+          "end": [
+            0,
+            27700
+          ]
+        },
+        {
+          "start_grid": "A-2",
+          "end_grid": "B-2",
+          "label": "KL3",
+          "section": "350x700",
+          "start": [
+            11300,
+            0
+          ],
+          "end": [
+            11300,
+            9650
+          ]
+        },
+        {
+          "start_grid": "B-2",
+          "end_grid": "C-2",
+          "label": "L12(1)",
+          "section": "200x400",
+          "start": [
+            11300,
+            9650
+          ],
+          "end": [
+            11300,
+            18050
+          ]
+        },
+        {
+          "start_grid": "C-2",
+          "end_grid": "D-2",
+          "label": "KL10(1)",
+          "section": "200x400",
+          "start": [
+            11300,
+            18050
+          ],
+          "end": [
+            11300,
+            27700
+          ]
+        },
+        {
+          "start_grid": "A-3",
+          "end_grid": "B-3",
+          "label": "KL4(5)",
+          "section": "200x600",
+          "start": [
+            19700,
+            0
+          ],
+          "end": [
+            19700,
+            9650
+          ]
+        },
+        {
+          "start_grid": "B-3",
+          "end_grid": "C-3",
+          "label": "L14(1)",
+          "section": "250x600",
+          "start": [
+            19700,
+            9650
+          ],
+          "end": [
+            19700,
+            18050
+          ]
+        },
+        {
+          "start_grid": "C-3",
+          "end_grid": "D-3",
+          "label": "L14(1)",
+          "section": "250x600",
+          "start": [
+            19700,
+            18050
+          ],
+          "end": [
+            19700,
+            27700
+          ]
+        },
+        {
+          "start_grid": "A-1",
+          "end_grid": "D-1",
+          "label": "L10(1)",
+          "section": "200x400",
+          "start": [
+            0,
+            0
+          ],
+          "end": [
+            0,
+            27700
+          ]
+        },
+        {
+          "start_grid": "B-2",
+          "end_grid": "B-3",
+          "label": "L12(1)",
+          "section": "200x400",
+          "start": [
+            11300,
+            9650
+          ],
+          "end": [
+            19700,
+            9650
+          ]
+        },
+        {
+          "start_grid": "C-1",
+          "end_grid": "C-2",
+          "label": "L10(7)",
+          "section": "200x400",
+          "start": [
+            0,
+            18050
+          ],
+          "end": [
+            11300,
+            18050
+          ]
+        },
+        {
+          "start_grid": "D-1",
+          "end_grid": "D-2",
+          "label": "L7(1)",
+          "section": "200x400",
+          "start": [
+            0,
+            27700
+          ],
+          "end": [
+            11300,
+            27700
+          ]
+        }
+      ],
+      "walls": [],
+      "slabs": []
+    },
+    "grid_info": {
+      "x_axes": [
+        {
+          "label": "1",
+          "coordinate": 0
+        },
+        {
+          "label": "2",
+          "coordinate": 11300
+        },
+        {
+          "label": "3",
+          "coordinate": 19700
+        }
+      ],
+      "y_axes": [
+        {
+          "label": "A",
+          "coordinate": 0
+        },
+        {
+          "label": "B",
+          "coordinate": 9650
+        },
+        {
+          "label": "C",
+          "coordinate": 18050
+        },
+        {
+          "label": "D",
+          "coordinate": 27700
+        }
+      ]
+    },
+    "connection_note": "本层构件连接关系：柱从 2F 楼板延伸至 3F 楼板，梁位于 3F 楼板底面",
+    "notes": "本图为二层梁配筋图，比例1:100。从图纸右侧可清晰看到轴3处多个柱旁标注有400x600字样，确认A-3、B-3、C-3、D-3处柱截面均为400x600。梁的识别采用了更完整的覆盖，包括所有X方向和Y方向的主梁及次梁。图中N前缀（如N812、N414）表示扭筋，G前缀（如G812、G412）表示构造钢筋，均为梁的配筋附加信息。"
+  },
+  "ocr_used": true,
+  "metadata": {
+    "image_path": "D:/20260307-skill-with-evaluation/structure-topology-skill/evaluation/datasets/images/plan/simple/PL-S-002.png",
+    "image_name": "PL-S-002.png",
+    "ocr_text_count": 135,
+    "type_confidence": 1.0,
+    "type_reasoning": "图纸显示了建筑的俯视图，包含由数字和字母组成的轴网，展示了柱和梁的平面布置，且OCR识别出的标题明确标注为'二层梁配筋图'，完全符合平面图的特征。",
+    "cross_validation_enabled": true,
+    "context_enabled": true,
+    "cross_validation": {
+      "consensus_reached": true,
+      "validation_rounds": 3,
+      "has_differences": false,
+      "differences_count": 0
+    }
+  },
+  "structural_note": "本图纸（2F 平面图）中的构件连接关系：柱和墙从 2F 楼板面向上延伸至上一层楼板面；梁位于上一层楼板底面。具体的 z 坐标需结合立面图的标高信息确定。"
+}

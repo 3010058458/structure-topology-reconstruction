@@ -1,0 +1,410 @@
+{
+  "drawing_type": "plan",
+  "floor_id": "5F",
+  "data": {
+    "floor_id": "5F",
+    "components_above": {
+      "columns": [
+        {
+          "x": 0,
+          "y": 0,
+          "label": "C-3",
+          "grid_location": "A-1",
+          "section": null
+        },
+        {
+          "x": 4000,
+          "y": 0,
+          "label": "C-3",
+          "grid_location": "A-2",
+          "section": null
+        },
+        {
+          "x": 8000,
+          "y": 0,
+          "label": "C-3",
+          "grid_location": "A-3",
+          "section": null
+        },
+        {
+          "x": 12000,
+          "y": 0,
+          "label": "C-3",
+          "grid_location": "A-4",
+          "section": null
+        },
+        {
+          "x": 16000,
+          "y": 0,
+          "label": "C-4",
+          "grid_location": "A-5",
+          "section": null
+        },
+        {
+          "x": 24000,
+          "y": 0,
+          "label": "C-3",
+          "grid_location": "A-7",
+          "section": null
+        },
+        {
+          "x": 28000,
+          "y": 0,
+          "label": "C-3",
+          "grid_location": "A-8",
+          "section": null
+        },
+        {
+          "x": 32000,
+          "y": 0,
+          "label": "C-3",
+          "grid_location": "A-9",
+          "section": null
+        },
+        {
+          "x": 36000,
+          "y": 0,
+          "label": "C-3",
+          "grid_location": "A-10",
+          "section": null
+        },
+        {
+          "x": 40000,
+          "y": 0,
+          "label": "C-3",
+          "grid_location": "A-11",
+          "section": null
+        },
+        {
+          "x": 40000,
+          "y": 7500,
+          "label": "C-8",
+          "grid_location": "B-11",
+          "section": null
+        },
+        {
+          "x": 0,
+          "y": 15000,
+          "label": "C-6",
+          "grid_location": "C-1",
+          "section": null
+        },
+        {
+          "x": 4000,
+          "y": 15000,
+          "label": "C-7",
+          "grid_location": "C-2",
+          "section": null
+        },
+        {
+          "x": 8000,
+          "y": 15000,
+          "label": "C-7",
+          "grid_location": "C-3",
+          "section": null
+        },
+        {
+          "x": 12000,
+          "y": 15000,
+          "label": "C-7",
+          "grid_location": "C-4",
+          "section": null
+        },
+        {
+          "x": 16000,
+          "y": 15000,
+          "label": "C-7",
+          "grid_location": "C-5",
+          "section": null
+        },
+        {
+          "x": 20000,
+          "y": 15000,
+          "label": "C-7",
+          "grid_location": "C-6",
+          "section": null
+        },
+        {
+          "x": 24000,
+          "y": 15000,
+          "label": "C-7",
+          "grid_location": "C-7",
+          "section": null
+        },
+        {
+          "x": 28000,
+          "y": 15000,
+          "label": "C-7",
+          "grid_location": "C-8",
+          "section": null
+        },
+        {
+          "x": 32000,
+          "y": 15000,
+          "label": "C-7",
+          "grid_location": "C-9",
+          "section": null
+        },
+        {
+          "x": 36000,
+          "y": 15000,
+          "label": "C-7",
+          "grid_location": "C-10",
+          "section": null
+        },
+        {
+          "x": 40000,
+          "y": 15000,
+          "label": "C-7",
+          "grid_location": "C-11",
+          "section": null
+        }
+      ],
+      "beams": [],
+      "walls": [
+        {
+          "start": [
+            0,
+            0
+          ],
+          "end": [
+            0,
+            15000
+          ],
+          "thickness": 240,
+          "label": null
+        },
+        {
+          "start": [
+            40000,
+            0
+          ],
+          "end": [
+            40000,
+            15000
+          ],
+          "thickness": 240,
+          "label": null
+        },
+        {
+          "start": [
+            0,
+            0
+          ],
+          "end": [
+            16000,
+            0
+          ],
+          "thickness": 240,
+          "label": null
+        },
+        {
+          "start": [
+            24000,
+            0
+          ],
+          "end": [
+            40000,
+            0
+          ],
+          "thickness": 240,
+          "label": null
+        },
+        {
+          "start": [
+            0,
+            15000
+          ],
+          "end": [
+            40000,
+            15000
+          ],
+          "thickness": 240,
+          "label": null
+        },
+        {
+          "start": [
+            0,
+            7500
+          ],
+          "end": [
+            4000,
+            7500
+          ],
+          "thickness": 240,
+          "label": null
+        },
+        {
+          "start": [
+            0,
+            9300
+          ],
+          "end": [
+            4000,
+            9300
+          ],
+          "thickness": 240,
+          "label": null
+        },
+        {
+          "start": [
+            36000,
+            7500
+          ],
+          "end": [
+            40000,
+            7500
+          ],
+          "thickness": 240,
+          "label": null
+        },
+        {
+          "start": [
+            36000,
+            9300
+          ],
+          "end": [
+            40000,
+            9300
+          ],
+          "thickness": 240,
+          "label": null
+        },
+        {
+          "start": [
+            16000,
+            0
+          ],
+          "end": [
+            16000,
+            7500
+          ],
+          "thickness": 240,
+          "label": null
+        },
+        {
+          "start": [
+            24000,
+            0
+          ],
+          "end": [
+            24000,
+            7500
+          ],
+          "thickness": 240,
+          "label": null
+        },
+        {
+          "start": [
+            16000,
+            7500
+          ],
+          "end": [
+            24000,
+            7500
+          ],
+          "thickness": 240,
+          "label": null
+        },
+        {
+          "start": [
+            16000,
+            9300
+          ],
+          "end": [
+            24000,
+            9300
+          ],
+          "thickness": 240,
+          "label": null
+        }
+      ],
+      "slabs": []
+    },
+    "grid_info": {
+      "x_axes": [
+        {
+          "label": "1",
+          "coordinate": 0
+        },
+        {
+          "label": "2",
+          "coordinate": 4000
+        },
+        {
+          "label": "3",
+          "coordinate": 8000
+        },
+        {
+          "label": "4",
+          "coordinate": 12000
+        },
+        {
+          "label": "5",
+          "coordinate": 16000
+        },
+        {
+          "label": "6",
+          "coordinate": 20000
+        },
+        {
+          "label": "7",
+          "coordinate": 24000
+        },
+        {
+          "label": "8",
+          "coordinate": 28000
+        },
+        {
+          "label": "9",
+          "coordinate": 32000
+        },
+        {
+          "label": "10",
+          "coordinate": 36000
+        },
+        {
+          "label": "11",
+          "coordinate": 40000
+        }
+      ],
+      "y_axes": [
+        {
+          "label": "A",
+          "coordinate": 0
+        },
+        {
+          "label": "B",
+          "coordinate": 7500
+        },
+        {
+          "label": "1/B",
+          "coordinate": 9300
+        },
+        {
+          "label": "C",
+          "coordinate": 15000
+        }
+      ]
+    },
+    "connection_note": "本层构件连接关系：柱和墙从 5F 楼板延伸至 6F 楼板，梁位于 6F 楼板底面",
+    "notes": "此图为建筑平面图（五层平面图 1:100），非结构平面图。图中标注了柱编号（C-3、C-4、C-6、C-7、C-8）和墙体位置，但未标注梁截面和楼板信息。A-6轴交点处无柱（该处为楼梯间区域）。中部5~7轴之间为楼梯间和电梯间区域。标高14.100和14.070标注在图中。M-5为门窗编号。"
+  },
+  "ocr_used": true,
+  "metadata": {
+    "image_path": "D:/20260307-skill-with-evaluation/structure-topology-skill/evaluation/datasets/images/plan/simple/PL-S-009.png",
+    "image_name": "PL-S-009.png",
+    "ocr_text_count": 117,
+    "type_confidence": 1.0,
+    "type_reasoning": "图纸显示了建筑楼层的俯视图，包含完整的数字和字母轴网，展示了房间（如'办公'）、墙体、门窗及楼梯的平面布置，且OCR文本和图纸底部标题明确标有'五层平面图'字样。",
+    "cross_validation_enabled": true,
+    "context_enabled": true,
+    "cross_validation": {
+      "consensus_reached": true,
+      "validation_rounds": 2,
+      "has_differences": false,
+      "differences_count": 0
+    }
+  },
+  "structural_note": "本图纸（5F 平面图）中的构件连接关系：柱和墙从 5F 楼板面向上延伸至上一层楼板面；梁位于上一层楼板底面。具体的 z 坐标需结合立面图的标高信息确定。"
+}

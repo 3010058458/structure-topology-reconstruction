@@ -1,0 +1,88 @@
+{
+  "drawing_type": "elevation",
+  "floor_id": "立面图",
+  "data": {
+    "floor_id": "立面图",
+    "floor_levels": [
+      {
+        "floor": "1F",
+        "elevation": 0.0,
+        "floor_height": 3000.0,
+        "description": "一层楼板面标高"
+      },
+      {
+        "floor": "2F",
+        "elevation": 3000.0,
+        "floor_height": 3000.0,
+        "description": "二层楼板面标高"
+      },
+      {
+        "floor": "3F",
+        "elevation": 6000.0,
+        "floor_height": 3000.0,
+        "description": "三层楼板面标高"
+      },
+      {
+        "floor": "4F",
+        "elevation": 9000.0,
+        "floor_height": 3000.0,
+        "description": "四层楼板面标高"
+      },
+      {
+        "floor": "RF",
+        "elevation": 12000.0,
+        "floor_height": null,
+        "description": "屋面标高"
+      },
+      {
+        "floor": "1F",
+        "elevation": 0.0,
+        "floor_height": 3600.0,
+        "description": "一层楼板面标高（±0.000）"
+      },
+      {
+        "floor": "2F",
+        "elevation": 3600.0,
+        "floor_height": 3300.0,
+        "description": "二层楼板面标高（3.600m）"
+      },
+      {
+        "floor": "3F",
+        "elevation": 6900.0,
+        "floor_height": 3300.0,
+        "description": "三层楼板面标高（6.900m）"
+      },
+      {
+        "floor": "4F",
+        "elevation": 10200.0,
+        "floor_height": 2800.0,
+        "description": "四层楼板面标高（10.200m）"
+      },
+      {
+        "floor": "RF",
+        "elevation": 13000.0,
+        "floor_height": null,
+        "description": "屋面标高（13.000m）"
+      }
+    ],
+    "total_height": 12500.0,
+    "floor_count": 4,
+    "notes": "提取主体建筑（4层部分）的标高信息。仔细查看图纸左侧（南立面图）和右下侧（北立面图）的标高及尺寸线，明确标注了主体建筑的层高均为3000mm，楼层标高分别为±0.000、3.000、6.000、9.000、12.000。Opus 4.6 错误地将窗顶标高（如6.900、9.900）以及局部高层（金工实习馆）的标高混淆识别为了主体楼层标高，因此保持原识别结果。"
+  },
+  "ocr_used": true,
+  "metadata": {
+    "image_path": "D:/20260307-skill-with-evaluation/structure-topology-skill/evaluation/datasets/images/elevation/EL-003.png",
+    "image_name": "EL-003.png",
+    "ocr_text_count": 116,
+    "type_confidence": 1.0,
+    "type_reasoning": "图纸明确标注了'南立面图'和'北立面图'，展示了建筑的外部侧面视图，包含大量的标高符号（▽）和数值，以及门窗的立面布置，完全符合立面图的特征。",
+    "cross_validation_enabled": true,
+    "context_enabled": true,
+    "cross_validation": {
+      "consensus_reached": false,
+      "validation_rounds": 3,
+      "has_differences": true,
+      "differences_count": 2
+    }
+  }
+}

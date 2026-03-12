@@ -1,0 +1,32 @@
+# Environment & secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Runtime outputs
+scripts/output/
+scripts/preprocessed/
+scripts/context/
+logs/
+*.log
+ocr_service/ocr_server_stderr.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

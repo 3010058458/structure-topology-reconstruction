@@ -1,0 +1,23 @@
+id,category,quality,source,annotator,annotation_date,frozen,notes
+EL-001,elevation,high,,,,false,转自 evelation_1.pdf
+EL-002,elevation,high,,,,false,转自 evelation_2.pdf
+EL-003,elevation,high,,,,false,转自 evelation_3.pdf
+EL-004,elevation,high,,,,false,转自 evelation_4.pdf
+EL-005,elevation,high,,,,false,转自 evelation_5.pdf
+EL-006,elevation,high,,,,false,用户补录
+PL-S-001,plan_simple,high,,,,false,转自 simple_1.pdf
+PL-S-002,plan_simple,high,,,,false,转自 simple_2.pdf
+PL-S-003,plan_simple,high,,,,false,转自 simple_3.pdf
+PL-S-004,plan_simple,high,,,,false,转自 simple_4.pdf
+PL-S-005,plan_simple,high,,,,false,转自 simple_5.pdf
+PL-S-006,plan_simple,high,,,,false,转自 simple_6.pdf
+PL-S-007,plan_simple,high,,,,false,转自 simple_7.pdf
+PL-S-008,plan_simple,high,,,,false,转自 simple_8.pdf
+PL-S-009,plan_simple,high,,,,false,转自 simple_9.pdf
+PL-M-001,plan_medium,high,,,,false,转自 medium_1.pdf
+PL-M-002,plan_medium,high,,,,false,转自 medium_2.pdf
+PL-M-003,plan_medium,high,,,,false,转自 medium_3.pdf
+PL-M-004,plan_medium,high,,,,false,转自 medium_4.pdf
+PL-M-005,plan_medium,high,,,,false,转自 medium_5.pdf
+PL-C-001,plan_complex,high,,,,false,转自 complex_1.pdf
+PL-C-003,plan_complex,high,,,,false,转自 complex_3.pdf

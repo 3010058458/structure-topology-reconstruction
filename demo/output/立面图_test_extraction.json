@@ -1,0 +1,52 @@
+{
+  "drawing_type": "elevation",
+  "floor_id": "立面图",
+  "data": {
+    "floor_id": "立面图",
+    "floor_levels": [
+      {
+        "floor": "1F",
+        "elevation": 0.0,
+        "floor_height": 3500.0,
+        "description": "一层楼板面标高（±0.000）"
+      },
+      {
+        "floor": "2F",
+        "elevation": 3500.0,
+        "floor_height": 3200.0,
+        "description": "二层楼板面标高（3.500m）"
+      },
+      {
+        "floor": "3F",
+        "elevation": 6700.0,
+        "floor_height": 3200.0,
+        "description": "三层楼板面标高（6.700m）"
+      },
+      {
+        "floor": "RF",
+        "elevation": 9900.0,
+        "floor_height": null,
+        "description": "屋面楼板标高（9.900m）"
+      }
+    ],
+    "total_height": 10835.0,
+    "floor_count": 3,
+    "notes": "室内外高差450mm（-0.450）。屋面为坡屋顶，屋脊最高点标高为11.770m。竖向尺寸标注中3500+3200+3200=9900与标高吻合。total_height取建筑最高点11770mm。"
+  },
+  "ocr_used": true,
+  "metadata": {
+    "image_path": "../demo/input/立面图_test.png",
+    "image_name": "立面图_test.png",
+    "ocr_text_count": 126,
+    "type_confidence": 1.0,
+    "type_reasoning": "图纸显示了建筑的四个外部侧面视图，包含明显的标高符号（▽）和标高数值（如±0.000、3.500、6.700、9.900等），标注了外墙材质（如'浅褐色喷石漆饰面'、'蓝色波纹瓦饰面'等），且图纸标题明确写有'①~⑦立面图'、'A~E立面图'等字样，完全符合立面图的特征。",
+    "cross_validation_enabled": true,
+    "context_enabled": true,
+    "cross_validation": {
+      "consensus_reached": false,
+      "validation_rounds": 3,
+      "has_differences": true,
+      "differences_count": 1
+    }
+  }
+}

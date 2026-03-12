@@ -1,0 +1,247 @@
+{
+  "drawing_type": "plan",
+  "floor_id": "未知",
+  "data": {
+    "floor_id": "未知",
+    "components_above": {
+      "columns": [
+        {
+          "x": 0,
+          "y": 0,
+          "label": null,
+          "grid_location": "A-1",
+          "section": null
+        },
+        {
+          "x": 3000,
+          "y": 0,
+          "label": null,
+          "grid_location": "A-2",
+          "section": null
+        },
+        {
+          "x": 5400,
+          "y": 0,
+          "label": null,
+          "grid_location": "A-3",
+          "section": null
+        },
+        {
+          "x": 8400,
+          "y": 0,
+          "label": null,
+          "grid_location": "A-4",
+          "section": null
+        },
+        {
+          "x": 0,
+          "y": 6000,
+          "label": null,
+          "grid_location": "B-1",
+          "section": null
+        },
+        {
+          "x": 3000,
+          "y": 6000,
+          "label": null,
+          "grid_location": "B-2",
+          "section": null
+        },
+        {
+          "x": 5400,
+          "y": 6000,
+          "label": null,
+          "grid_location": "B-3",
+          "section": null
+        },
+        {
+          "x": 8400,
+          "y": 6000,
+          "label": null,
+          "grid_location": "B-4",
+          "section": null
+        },
+        {
+          "x": 9100,
+          "y": 6000,
+          "label": null,
+          "grid_location": "B-5",
+          "section": null
+        },
+        {
+          "x": 0,
+          "y": 12000,
+          "label": null,
+          "grid_location": "C-1",
+          "section": null
+        },
+        {
+          "x": 3000,
+          "y": 12000,
+          "label": null,
+          "grid_location": "C-2",
+          "section": "270x900"
+        },
+        {
+          "x": 5400,
+          "y": 12000,
+          "label": null,
+          "grid_location": "C-3",
+          "section": null
+        },
+        {
+          "x": 8400,
+          "y": 12000,
+          "label": null,
+          "grid_location": "C-4",
+          "section": "900x270"
+        },
+        {
+          "x": 9100,
+          "y": 12000,
+          "label": null,
+          "grid_location": "C-5",
+          "section": "270x900"
+        },
+        {
+          "x": 0,
+          "y": 14400,
+          "label": null,
+          "grid_location": "D-1",
+          "section": null
+        },
+        {
+          "x": 3000,
+          "y": 14400,
+          "label": null,
+          "grid_location": "D-2",
+          "section": "270x900"
+        },
+        {
+          "x": 5400,
+          "y": 14400,
+          "label": null,
+          "grid_location": "D-3",
+          "section": null
+        },
+        {
+          "x": 8400,
+          "y": 14400,
+          "label": null,
+          "grid_location": "D-4",
+          "section": "900x270"
+        },
+        {
+          "x": 9100,
+          "y": 14400,
+          "label": null,
+          "grid_location": "D-5",
+          "section": "270x900"
+        },
+        {
+          "x": 0,
+          "y": 20400,
+          "label": null,
+          "grid_location": "E-1",
+          "section": null
+        },
+        {
+          "x": 3000,
+          "y": 20400,
+          "label": null,
+          "grid_location": "E-2",
+          "section": null
+        },
+        {
+          "x": 5400,
+          "y": 20400,
+          "label": null,
+          "grid_location": "E-3",
+          "section": null
+        },
+        {
+          "x": 8400,
+          "y": 20400,
+          "label": null,
+          "grid_location": "E-4",
+          "section": null
+        },
+        {
+          "x": 9100,
+          "y": 20400,
+          "label": null,
+          "grid_location": "E-5",
+          "section": null
+        }
+      ],
+      "beams": [],
+      "walls": [],
+      "slabs": []
+    },
+    "grid_info": {
+      "x_axes": [
+        {
+          "label": "1",
+          "coordinate": 0
+        },
+        {
+          "label": "2",
+          "coordinate": 3000
+        },
+        {
+          "label": "3",
+          "coordinate": 5400
+        },
+        {
+          "label": "4",
+          "coordinate": 8400
+        },
+        {
+          "label": "5",
+          "coordinate": 9100
+        }
+      ],
+      "y_axes": [
+        {
+          "label": "A",
+          "coordinate": 0
+        },
+        {
+          "label": "B",
+          "coordinate": 6000
+        },
+        {
+          "label": "C",
+          "coordinate": 12000
+        },
+        {
+          "label": "D",
+          "coordinate": 14400
+        },
+        {
+          "label": "E",
+          "coordinate": 20400
+        }
+      ]
+    },
+    "connection_note": "本层构件连接关系：柱从当前楼板延伸至上一层楼板",
+    "notes": "图纸为柱平面布置图，未见梁、墙、板的绘制。部分柱截面有标注（如C-2、D-2为270x900，C-4、D-4为900x270等），其余未标注。Opus 4.6 识别的梁和墙属于过度推断（幻觉），图纸中并无双线梁或粗线墙的图例。"
+  },
+  "ocr_used": true,
+  "metadata": {
+    "image_path": "D:/20260307-skill-with-evaluation/structure-topology-skill/evaluation/datasets/images/plan/medium/PL-M-005.png",
+    "image_name": "PL-M-005.png",
+    "ocr_text_count": 38,
+    "type_confidence": 1.0,
+    "type_reasoning": "图纸显示了建筑的俯视图，包含明显的数字轴（1-5）和字母轴（A-E）组成的轴网，以及填充为黑色的矩形柱平面布置，并且标注了房间名称（如'会议室'、'档案室'），没有标高符号，完全符合平面图的特征。",
+    "cross_validation_enabled": true,
+    "context_enabled": true,
+    "cross_validation": {
+      "consensus_reached": true,
+      "validation_rounds": 2,
+      "has_differences": false,
+      "differences_count": 0
+    }
+  },
+  "structural_note": "本图纸（未知 平面图）中的构件连接关系：柱和墙从 未知 楼板面向上延伸至上一层楼板面；梁位于上一层楼板底面。具体的 z 坐标需结合立面图的标高信息确定。"
+}

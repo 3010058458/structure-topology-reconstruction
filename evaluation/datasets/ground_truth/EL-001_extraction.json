@@ -1,0 +1,68 @@
+{
+  "drawing_type": "elevation",
+  "floor_id": "立面图",
+  "data": {
+    "floor_id": "立面图",
+    "floor_levels": [
+      {
+        "floor": "1F",
+        "elevation": 0.0,
+        "floor_height": 4800.0,
+        "description": "一层楼板面标高（±0.000）"
+      },
+      {
+        "floor": "2F",
+        "elevation": 4800.0,
+        "floor_height": 3900.0,
+        "description": "二层楼板面标高"
+      },
+      {
+        "floor": "3F",
+        "elevation": 8700.0,
+        "floor_height": 3900.0,
+        "description": "三层楼板面标高"
+      },
+      {
+        "floor": "4F",
+        "elevation": 12600.0,
+        "floor_height": 3900.0,
+        "description": "四层楼板面标高"
+      },
+      {
+        "floor": "RF",
+        "elevation": 16500.0,
+        "floor_height": 1200.0,
+        "description": "屋面楼板标高"
+      },
+      {
+        "floor": "Top",
+        "elevation": 17700.0,
+        "floor_height": null,
+        "description": "女儿墙顶标高"
+      }
+    ],
+    "total_height": 17700.0,
+    "floor_count": 4,
+    "notes": "室外地坪标高为-450mm；屋面楼板标高16500mm，女儿墙/檐口顶标高17700mm（高出屋面1200mm）；图纸包含东立面图和西立面图，比例均为1:100；轴线标注为A轴和F轴。"
+  },
+  "ocr_used": true,
+  "metadata": {
+    "image_path": "D:/20260307-skill-with-evaluation/structure-topology-skill/evaluation/datasets/images/elevation/EL-001.png",
+    "image_name": "EL-001.png",
+    "ocr_text_count": 32,
+    "type_confidence": 1.0,
+    "type_reasoning": "图纸明确标注了'东立面图1:100'和'西立面图1:100'，显示了建筑的侧面外观视图。图中包含多个标高符号（▽）及竖向高度数值（如-0.450、±0.000、4.800、8.700、12.600、16.500、17.700），并且可以看到水平楼层线和窗户的正面表现，完全符合立面图的特征。由于特征极其明显且有明确的标题，置信度为1.0。",
+    "cross_validation_enabled": true,
+    "context_enabled": true,
+    "cross_validation": {
+      "consensus_reached": true,
+      "validation_rounds": 2,
+      "has_differences": false,
+      "differences_count": 0
+    }
+  },
+  "_gt_meta": {
+    "annotator": "leio",
+    "annotation_date": "20260310"
+  }
+}
