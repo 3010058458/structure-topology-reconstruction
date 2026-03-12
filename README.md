@@ -334,9 +334,3 @@ paddleocr==3.4.0
 # 三维重建（可选，json_to_vtu.py 使用）
 pyvista==0.47.1
 ```
-
----
-
-## License
-
-MIT License — 详见 [LICENSE](LICENSE)
