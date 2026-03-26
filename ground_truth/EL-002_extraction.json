@@ -1,0 +1,56 @@
+{
+  "drawing_type": "elevation",
+  "floor_id": "立面图",
+  "data": {
+    "floor_id": "立面图",
+    "floor_levels": [
+      {
+        "floor": "1F",
+        "elevation": 0.0,
+        "floor_height": 3500.0,
+        "description": "一层楼板面标高 ±0.000"
+      },
+      {
+        "floor": "2F",
+        "elevation": 3500.0,
+        "floor_height": 3200.0,
+        "description": "二层楼板面标高 3.500m"
+      },
+      {
+        "floor": "3F",
+        "elevation": 6700.0,
+        "floor_height": 3200.0,
+        "description": "三层楼板面标高 6.700m"
+      },
+      {
+        "floor": "RF",
+        "elevation": 9900.0,
+        "floor_height": null,
+        "description": "屋面楼板标高 9.900m"
+      }
+    ],
+    "total_height": 11770.0,
+    "floor_count": 3,
+    "notes": "室外地坪标高为-0.450m；屋面楼板标高9.900m；屋脊最高点标高11.770m（坡屋顶）；另有局部标高9.500m、9.600m、10.545m、10.845m为坡屋面不同位置的标高；尺寸标注中13500和14300为建筑总长度方向尺寸（mm）"
+  },
+  "ocr_used": true,
+  "metadata": {
+    "image_path": "D:/20260307-skill-with-evaluation/structure-topology-skill/evaluation/datasets/images/elevation/EL-002.png",
+    "image_name": "EL-002.png",
+    "ocr_text_count": 110,
+    "type_confidence": 1.0,
+    "type_reasoning": "图纸显示建筑四个方向的侧面视图，标题明确标注'立面'（如'①~⑦立面'、'⑦~①立面'、'A~E立面'、'E~A立面'），包含标高数值（如±0.000、3.500、6.700、9.900等），可见屋顶轮廓、窗户、楼层线等侧面特征，并标注了外墙饰面材料（褐色喷石漆饰面、米黄色喷石漆饰面等），完全符合立面图特征。特征极其明显，置信度为1.0。",
+    "cross_validation_enabled": true,
+    "context_enabled": true,
+    "cross_validation": {
+      "consensus_reached": true,
+      "validation_rounds": 2,
+      "has_differences": false,
+      "differences_count": 0
+    }
+  },
+  "_gt_meta": {
+    "annotator": "leio",
+    "annotation_date": "20260310"
+  }
+}

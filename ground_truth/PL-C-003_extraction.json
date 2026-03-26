@@ -1,0 +1,702 @@
+{
+  "drawing_type": "plan",
+  "floor_id": "2F",
+  "data": {
+    "grid_info": {
+      "x_axes": [
+        {
+          "label": "1-1",
+          "coordinate": 0
+        },
+        {
+          "label": "1-2",
+          "coordinate": 3900
+        },
+        {
+          "label": "1-3",
+          "coordinate": 7800
+        },
+        {
+          "label": "1-4",
+          "coordinate": 11700
+        },
+        {
+          "label": "1-5",
+          "coordinate": 15600
+        },
+        {
+          "label": "1-6",
+          "coordinate": 18900
+        },
+        {
+          "label": "1-7",
+          "coordinate": 22800
+        },
+        {
+          "label": "1-8",
+          "coordinate": 26700
+        },
+        {
+          "label": "1-9",
+          "coordinate": 30600
+        },
+        {
+          "label": "1-10",
+          "coordinate": 34500
+        },
+        {
+          "label": "1-11",
+          "coordinate": 37800
+        },
+        {
+          "label": "1-12",
+          "coordinate": 42800
+        },
+        {
+          "label": "1-13",
+          "coordinate": 47800
+        },
+        {
+          "label": "1-14",
+          "coordinate": 51400
+        },
+        {
+          "label": "2-1",
+          "coordinate": 51900
+        },
+        {
+          "label": "2-2",
+          "coordinate": 56400
+        },
+        {
+          "label": "2-3",
+          "coordinate": 63900
+        }
+      ],
+      "y_axes": [
+        {
+          "label": "1-A",
+          "coordinate": 0
+        },
+        {
+          "label": "1-B",
+          "coordinate": 4700
+        },
+        {
+          "label": "1-C",
+          "coordinate": 10000
+        },
+        {
+          "label": "1-D",
+          "coordinate": 13500
+        },
+        {
+          "label": "1-E",
+          "coordinate": 14500
+        },
+        {
+          "label": "2-A",
+          "coordinate": 0
+        },
+        {
+          "label": "2-B",
+          "coordinate": 3600
+        },
+        {
+          "label": "2-C",
+          "coordinate": 12000
+        },
+        {
+          "label": "2-D",
+          "coordinate": 13500
+        },
+        {
+          "label": "2-E",
+          "coordinate": 16700
+        },
+        {
+          "label": "2-F",
+          "coordinate": 21700
+        },
+        {
+          "label": "2-G",
+          "coordinate": 26700
+        },
+        {
+          "label": "2-H",
+          "coordinate": 31700
+        }
+      ]
+    },
+    "floor_id": "2F",
+    "components_above": {
+      "columns": [
+        {
+          "x": 0,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "1-A-1-1",
+          "section": null
+        },
+        {
+          "x": 3900,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "1-A-1-2",
+          "section": null
+        },
+        {
+          "x": 7800,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "1-A-1-3",
+          "section": null
+        },
+        {
+          "x": 11700,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "1-A-1-4",
+          "section": null
+        },
+        {
+          "x": 15600,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "1-A-1-5",
+          "section": null
+        },
+        {
+          "x": 18900,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "1-A-1-6",
+          "section": null
+        },
+        {
+          "x": 22800,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "1-A-1-7",
+          "section": null
+        },
+        {
+          "x": 26700,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "1-A-1-8",
+          "section": null
+        },
+        {
+          "x": 30600,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "1-A-1-9",
+          "section": null
+        },
+        {
+          "x": 34500,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "1-A-1-10",
+          "section": null
+        },
+        {
+          "x": 37800,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "1-A-1-11",
+          "section": null
+        },
+        {
+          "x": 42800,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "1-A-1-12",
+          "section": null
+        },
+        {
+          "x": 47800,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "1-A-1-13",
+          "section": null
+        },
+        {
+          "x": 51400,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "1-A-1-14",
+          "section": null
+        },
+        {
+          "x": 0,
+          "y": 4700,
+          "label": "KZ",
+          "grid_location": "1-B-1-1",
+          "section": null
+        },
+        {
+          "x": 3900,
+          "y": 4700,
+          "label": "KZ",
+          "grid_location": "1-B-1-2",
+          "section": null
+        },
+        {
+          "x": 7800,
+          "y": 4700,
+          "label": "KZ",
+          "grid_location": "1-B-1-3",
+          "section": null
+        },
+        {
+          "x": 11700,
+          "y": 4700,
+          "label": "KZ",
+          "grid_location": "1-B-1-4",
+          "section": null
+        },
+        {
+          "x": 15600,
+          "y": 4700,
+          "label": "KZ",
+          "grid_location": "1-B-1-5",
+          "section": null
+        },
+        {
+          "x": 18900,
+          "y": 4700,
+          "label": "KZ",
+          "grid_location": "1-B-1-6",
+          "section": null
+        },
+        {
+          "x": 22800,
+          "y": 4700,
+          "label": "KZ",
+          "grid_location": "1-B-1-7",
+          "section": null
+        },
+        {
+          "x": 26700,
+          "y": 4700,
+          "label": "KZ",
+          "grid_location": "1-B-1-8",
+          "section": null
+        },
+        {
+          "x": 30600,
+          "y": 4700,
+          "label": "KZ",
+          "grid_location": "1-B-1-9",
+          "section": null
+        },
+        {
+          "x": 34500,
+          "y": 4700,
+          "label": "KZ",
+          "grid_location": "1-B-1-10",
+          "section": null
+        },
+        {
+          "x": 37800,
+          "y": 4700,
+          "label": "KZ",
+          "grid_location": "1-B-1-11",
+          "section": null
+        },
+        {
+          "x": 0,
+          "y": 10000,
+          "label": "KZ",
+          "grid_location": "1-C-1-1",
+          "section": null
+        },
+        {
+          "x": 3900,
+          "y": 10000,
+          "label": "KZ",
+          "grid_location": "1-C-1-2",
+          "section": null
+        },
+        {
+          "x": 7800,
+          "y": 10000,
+          "label": "KZ",
+          "grid_location": "1-C-1-3",
+          "section": null
+        },
+        {
+          "x": 11700,
+          "y": 10000,
+          "label": "KZ",
+          "grid_location": "1-C-1-4",
+          "section": null
+        },
+        {
+          "x": 15600,
+          "y": 10000,
+          "label": "KZ",
+          "grid_location": "1-C-1-5",
+          "section": null
+        },
+        {
+          "x": 18900,
+          "y": 10000,
+          "label": "KZ",
+          "grid_location": "1-C-1-6",
+          "section": null
+        },
+        {
+          "x": 22800,
+          "y": 10000,
+          "label": "KZ",
+          "grid_location": "1-C-1-7",
+          "section": null
+        },
+        {
+          "x": 26700,
+          "y": 10000,
+          "label": "KZ",
+          "grid_location": "1-C-1-8",
+          "section": null
+        },
+        {
+          "x": 30600,
+          "y": 10000,
+          "label": "KZ",
+          "grid_location": "1-C-1-9",
+          "section": null
+        },
+        {
+          "x": 34500,
+          "y": 10000,
+          "label": "KZ",
+          "grid_location": "1-C-1-10",
+          "section": null
+        },
+        {
+          "x": 37800,
+          "y": 10000,
+          "label": "KZ",
+          "grid_location": "1-C-1-11",
+          "section": null
+        },
+        {
+          "x": 0,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "1-D-1-1",
+          "section": null
+        },
+        {
+          "x": 3900,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "1-D-1-2",
+          "section": null
+        },
+        {
+          "x": 7800,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "1-D-1-3",
+          "section": null
+        },
+        {
+          "x": 11700,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "1-D-1-4",
+          "section": null
+        },
+        {
+          "x": 15600,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "1-D-1-5",
+          "section": null
+        },
+        {
+          "x": 18900,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "1-D-1-6",
+          "section": null
+        },
+        {
+          "x": 22800,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "1-D-1-7",
+          "section": null
+        },
+        {
+          "x": 26700,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "1-D-1-8",
+          "section": null
+        },
+        {
+          "x": 30600,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "1-D-1-9",
+          "section": null
+        },
+        {
+          "x": 34500,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "1-D-1-10",
+          "section": null
+        },
+        {
+          "x": 37800,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "1-D-1-11",
+          "section": null
+        },
+        {
+          "x": 42800,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "1-D-1-12",
+          "section": null
+        },
+        {
+          "x": 47800,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "1-D-1-13",
+          "section": null
+        },
+        {
+          "x": 51400,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "1-D-1-14",
+          "section": null
+        },
+        {
+          "x": 15600,
+          "y": 14500,
+          "label": "KZ",
+          "grid_location": "1-E-1-5",
+          "section": null
+        },
+        {
+          "x": 18900,
+          "y": 14500,
+          "label": "KZ",
+          "grid_location": "1-E-1-6",
+          "section": null
+        },
+        {
+          "x": 34500,
+          "y": 14500,
+          "label": "KZ",
+          "grid_location": "1-E-1-10",
+          "section": null
+        },
+        {
+          "x": 37800,
+          "y": 14500,
+          "label": "KZ",
+          "grid_location": "1-E-1-11",
+          "section": null
+        },
+        {
+          "x": 51900,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "2-A-2-1",
+          "section": null
+        },
+        {
+          "x": 51900,
+          "y": 3600,
+          "label": "KZ",
+          "grid_location": "2-B-2-1",
+          "section": null
+        },
+        {
+          "x": 51900,
+          "y": 12000,
+          "label": "KZ",
+          "grid_location": "2-C-2-1",
+          "section": null
+        },
+        {
+          "x": 51900,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "2-D-2-1",
+          "section": null
+        },
+        {
+          "x": 51900,
+          "y": 16700,
+          "label": "KZ",
+          "grid_location": "2-E-2-1",
+          "section": null
+        },
+        {
+          "x": 51900,
+          "y": 21700,
+          "label": "KZ",
+          "grid_location": "2-F-2-1",
+          "section": null
+        },
+        {
+          "x": 51900,
+          "y": 26700,
+          "label": "KZ",
+          "grid_location": "2-G-2-1",
+          "section": null
+        },
+        {
+          "x": 51900,
+          "y": 31700,
+          "label": "KZ",
+          "grid_location": "2-H-2-1",
+          "section": null
+        },
+        {
+          "x": 56400,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "2-A-2-2",
+          "section": null
+        },
+        {
+          "x": 56400,
+          "y": 3600,
+          "label": "KZ",
+          "grid_location": "2-B-2-2",
+          "section": null
+        },
+        {
+          "x": 56400,
+          "y": 12000,
+          "label": "KZ",
+          "grid_location": "2-C-2-2",
+          "section": null
+        },
+        {
+          "x": 56400,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "2-D-2-2",
+          "section": null
+        },
+        {
+          "x": 56400,
+          "y": 21700,
+          "label": "KZ",
+          "grid_location": "2-F-2-2",
+          "section": null
+        },
+        {
+          "x": 56400,
+          "y": 26700,
+          "label": "KZ",
+          "grid_location": "2-G-2-2",
+          "section": null
+        },
+        {
+          "x": 56400,
+          "y": 31700,
+          "label": "KZ",
+          "grid_location": "2-H-2-2",
+          "section": null
+        },
+        {
+          "x": 63900,
+          "y": 0,
+          "label": "KZ",
+          "grid_location": "2-A-2-3",
+          "section": null
+        },
+        {
+          "x": 63900,
+          "y": 3600,
+          "label": "KZ",
+          "grid_location": "2-B-2-3",
+          "section": null
+        },
+        {
+          "x": 63900,
+          "y": 12000,
+          "label": "KZ",
+          "grid_location": "2-C-2-3",
+          "section": null
+        },
+        {
+          "x": 63900,
+          "y": 13500,
+          "label": "KZ",
+          "grid_location": "2-D-2-3",
+          "section": null
+        },
+        {
+          "x": 63900,
+          "y": 16700,
+          "label": "KZ",
+          "grid_location": "2-E-2-3",
+          "section": null
+        },
+        {
+          "x": 63900,
+          "y": 21700,
+          "label": "KZ",
+          "grid_location": "2-F-2-3",
+          "section": null
+        },
+        {
+          "x": 63900,
+          "y": 26700,
+          "label": "KZ",
+          "grid_location": "2-G-2-3",
+          "section": null
+        },
+        {
+          "x": 63900,
+          "y": 31700,
+          "label": "KZ",
+          "grid_location": "2-H-2-3",
+          "section": null
+        }
+      ],
+      "beams": [],
+      "walls": [],
+      "slabs": []
+    },
+    "connection_note": "本层构件连接关系：柱从 2F 楼板延伸至 3F 楼板，梁位于 3F 楼板底面",
+    "notes": "本图纸包含两套独立轴网，左侧主体区域使用1号轴网，右侧副楼区域使用2号轴网，两套轴网不合并、不共享轴号。1号轴网：x轴1-1至1-14，y轴1-A至1-E；2号轴网：x轴2-1至2-3，y轴2-A至2-H。柱的grid_location格式为{轴网号}-{字母轴}-{轴网号}-{数字轴}，如'1-A-1-1'表示1号轴网1-A轴与1-1轴的交点，'2-A-2-1'表示2号轴网2-A轴与2-1轴的交点。1号轴网共54根柱，2号轴网共23根柱，合计77根。"
+  },
+  "ocr_used": true,
+  "metadata": {
+    "image_path": "D:/20260307-skill-with-evaluation/structure-topology-skill/evaluation/datasets/images/plan/complex/PL-C-003.png",
+    "image_name": "PL-C-003.png",
+    "ocr_text_count": 332,
+    "type_confidence": 1.0,
+    "type_reasoning": "图纸显示了建筑楼层的俯视图，包含了由数字和字母组成的轴网，展示了墙体、门窗以及室内家具的平面布置。此外，图纸下方及右下角图签中均明确标有'二层平面图'字样。特征非常明显，可以100%确定为平面图。",
+    "cross_validation_enabled": true,
+    "context_enabled": true,
+    "cross_validation": {
+      "consensus_reached": false,
+      "validation_rounds": 3,
+      "has_differences": true,
+      "differences_count": 4
+    }
+  },
+  "structural_note": "本图纸（2F 平面图）中的构件连接关系：柱和墙从 2F 楼板面向上延伸至上一层楼板面；梁位于上一层楼板底面。具体的 z 坐标需结合立面图的标高信息确定。",
+  "_gt_meta": {
+    "annotator": "leio",
+    "annotation_date": "20260310"
+  }
+}
